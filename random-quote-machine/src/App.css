@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&display=swap');
+:root{
+  --main-font: 'Libre Baskerville',
+    serif;
+}
+
+.App{
+  min-height: 100vh;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+}
+.card{
+  width: 650px;
+  border: none;
+  border-radius: 50px !important;
+}
+.card-body{
+  padding: 1.5rem !important;
+}
+.card-text{
+  text-align: center;
+  font-family: var(--main-font);
+  font-size: 1.5rem;
+  color: inherit;
+  margin-bottom: 2rem;
+}
+
+#author{
+  text-align: right;
+  color: inherit;
+  opacity: 70%;
+}
+.card-footer{
+  background-color: inherit;
+  filter: brightness(98%);
+  border-top: none;
+}
+.btn{
+  border: none;
+  color: inherit;
+}
+.btn:hover{
+  background-color: rgb(200, 200, 200);
+}
+.btn-social{
+  background-color: #73bce9;
+}
+.twitter-logo{
+  width: 28px;
+  background-color: inherit;
+}
+
+.atribution, .atribution a{
+  color: white;
+}
+.atribution a{
+  font-weight: bold;
+}
+.quoteBg{
+  position: absolute;
+  width: 150px;
+}
+.quoteBg1{
+  left: 15%;
+  top: 15%;
+  transform: rotate(180deg);
+}
+.quoteBg2{
+  right: 15%;
+  bottom: 15%;
+}
