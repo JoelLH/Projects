@@ -1,0 +1,124 @@
+
+
+body{
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  text-align: center;
+}
+.controls{
+  display: flex;
+  flex-flow: column;
+  font-size: 1.2rem;
+  background-color: white;
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding: 1rem;
+  gap: 10px;
+
+}
+.controls.break{
+    color: #8ac926;
+}
+.controls.session{
+  color: #1982C4;
+}
+.control-label{
+  font-weight: 500;
+}
+.control__length{
+  font-size: 1.6rem;
+}
+.control-btn{
+  border-radius: 0;
+  border-collapse: collapse;
+  font-size: 1.5rem;
+  padding: 1px 8px;
+  border: 2px solid rgb(186, 186, 186);
+}
+.control-plus{
+  border-top-left-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-right: -1px;
+  border-right: none;
+  
+}
+.control-minus{
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-left: none;
+}
+.control-btn:hover{
+  background-color: rgb(236, 236, 236) !important;
+}
+.control-btn:active{
+  transform: scale(.9);
+}
+.timer-section{
+  flex-flow: column;
+}
+.timer{
+  width: 350px;
+  height: 350px;
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  border: 4px solid #9bc9e6;
+  border-radius: 50%;
+  color: #1982C4;
+  position: relative;
+  margin-bottom: 25px;
+  background-color: #e8f6ff;
+}
+.timer.break{
+  border: 4px solid #c5d9a5;
+  background-color: #f1ffd9;
+  color: #8ac926;
+}
+.timer__label{
+  font-size: 2rem;
+  margin-bottom: 1.5rem;
+  position: absolute;
+  top: 50px;
+}
+.timer__clock{
+  font-size: 5rem;
+}
+.timer__init{
+  padding: 5px 10px;
+  width: 150px;
+  border-radius: 30px;
+
+  text-transform: uppercase;
+}
+
+.timer__init:active,.timer__reset:active{
+  transform: scale(.9);
+}
+.timer__reset, .timer__init {
+  font-size: 1.4rem;
+  border: none;
+  transition: all ease-in-out .1s;
+}
+.timer__reset:hover{
+  color: #1982C4;
+  border: none;
+  background-color: rgb(236, 236, 236) !important;
+}
+i{
+  pointer-events: none;
+}
+.atributtion{
+  display: flex;
+  flex-flow: column;
+  font-size: 18px;
+  color: #8ac926;
+}
+.atributtion a{
+  font-weight: 600;
+  color: #1982C4;
+  text-decoration: none;
+}
