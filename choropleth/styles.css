@@ -1,0 +1,54 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+}
+.state{
+    stroke: black;
+    fill: transparent;
+    stroke-width: 2px;
+}
+.legend{
+    position: absolute;
+    bottom: 18%;
+    left: 52%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+text{
+    font-size: 12px;
+    fill: black;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.county:hover{
+    filter: brightness(115%);
+}
+.tooltip{
+    display: none;
+    padding: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    background: hsla(0, 0%, 100%, .7);
+    position: absolute;
+}
+.atribution{
+    position: absolute;
+    bottom : 5%;
+    right : 5%;
+}
+.atribution a{
+    color: #613DC1;
+    font-weight: bold;
+    text-decoration: none;
+}
